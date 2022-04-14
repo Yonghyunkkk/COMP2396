@@ -6,7 +6,7 @@ public class CmdInsertCoin implements Command {
 		Integer c = Integer.valueOf(cmdPart);
 	    // Add the coin to Coin Slot
 	    v.insertCoin(c);
-	    // Do something
+	    // Get total coins
 	    int total = v.totalCoins();
 	    
 	    return "Inserted a $" +c+ " coin. $" +total+ " in total.";
