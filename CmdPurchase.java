@@ -5,6 +5,7 @@ public class CmdPurchase implements Command {
 	public String execute(VendingMachine v, String cmdPart) {
 		String output = v.checkProduct(cmdPart);
 		
+		// Return output
 		return output;
 	}
 
